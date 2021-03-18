@@ -1,0 +1,66 @@
+Initial values: v1=0.1  v2=0.2  v3=0.15  v4=0.05
+
+ nharmonic(2): 2  
+ nharmonic set to 2
+ nevents(1000) max is 100000: 1000
+ nevents set to 1000
+ nparticles/event average(100): 100
+ nparticles set to 100
+ do loops 0-no 1-yes(1): 1
+ doloop set to 1
+ ievent=0
+Warning in <TF1::GetRandom>: function:flowf has 7 negative values: abs assumed
+ ievent=100
+Warning in <TF1::GetRandom>: function:flowf has 22 negative values: abs assumed
+ ievent=200
+ ievent=300
+ ievent=400
+ ievent=500
+Warning in <TF1::GetRandom>: function:flowf has 6 negative values: abs assumed
+ ievent=600
+Warning in <TF1::GetRandom>: function:flowf has 8 negative values: abs assumed
+ ievent=700
+Warning in <TF1::GetRandom>: function:flowf has 16 negative values: abs assumed
+ ievent=800
+ ievent=900
+ FCN=85.6304 FROM MIGRAD    STATUS=CONVERGED     504 CALLS         505 TOTAL
+                     EDM=1.59091e-17    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00962e+00   6.40008e-04   2.90828e-06   7.47610e-06
+   2  p1           9.73447e-03   4.49828e-04   2.04108e-06  -3.13308e-07
+   3  p2           5.72872e-03   4.48668e-04   2.03579e-06   3.50771e-06
+   4  p3           2.15319e-02   4.47405e-04   2.03260e-06  -3.65304e-06
+   5  p4           1.68556e-03   4.48535e-04   2.03707e-06   1.91844e-06
+   6  p5          -1.12831e-04   4.48100e-04   2.03530e-06   3.96240e-06
+
+ nevents=1000  nparticlesav=100 nharmonic=2 doloop=1
+
+Initial values: v1=0.1  v2=0.2  v3=0.15  v4=0.05
+
+ CF2=0.00711947 sqrt(CF2):vn{2}=0.0843769
+ CF4=-5.19163e-05 sqrt(sqrt(-CF4)):vn{4}=0.084884
+ CF6=7.69648e-06 6throot((CF6)/4.):vn{6}=0.111525
+
+FINAL values from event plane
+
+ FINAL event plane resolution=0.225573
+ FINAL v2 from Event plane=0.117443 nharmonic=2
+ 2 particle correlation fit: v1=0.0986634  v2=0.0756883  v3=0.146738  v4=0.0410556  v5sq=-0.000112831
+
+if loops done FINAL values from particle cumulants
+
+ 2 particle cumulant = 0.00711947
+ 3 particle cumulant = 0.000445096
+ 4 particle cumulant = 4.85575e-05
+
+FINAL calculations from particle cumulants
+
+ from 2 particle cumulant: v2=0.0843769
+ from 4 particle cumulant: v2=0.0852494
+
+ nharmonic=2, 3 particle cumulant=0.000445096 we expect 0.002 i.e. v2*v2*v4
+
+root [1] .q
+richards-mbp-3:flow seto$ cp flow4.root flow4ptv2.root
+richards-mbp-3:flow seto$ 

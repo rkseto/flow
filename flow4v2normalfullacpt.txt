@@ -1,0 +1,59 @@
+1 warning generated.
+Initial values: v1=0.1  v2=0.2  v3=0.15  v4=0.05
+
+ nharmonic(2): 2
+ nharmonic set to 2
+ nevents(1000) max is 100000: 1000
+ nevents set to 1000
+ nparticles/event average(100): 100
+ nparticles set to 100
+ do loops 0-no 1-yes(1): 1
+ doloop set to 1
+ ievent=0
+ ievent=100
+ ievent=200
+ ievent=300
+ ievent=400
+ ievent=500
+ ievent=600
+ ievent=700
+ ievent=800
+ ievent=900
+ FCN=87.1253 FROM MIGRAD    STATUS=CONVERGED     505 CALLS         506 TOTAL
+                     EDM=1.7553e-12    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           1.00935e+00   6.40154e-04   2.93337e-06  -1.58785e-03
+   2  p1           9.72127e-03   4.59279e-04   2.09947e-06  -4.84965e-04
+   3  p2           3.52994e-02   4.48400e-04   2.04977e-06  -2.82697e-03
+   4  p3           2.14582e-02   4.47512e-04   2.04574e-06  -1.83511e-03
+   5  p4           2.39901e-03   4.47738e-04   2.04886e-06   3.15240e-05
+   6  p5          -2.92788e-04   4.47907e-04   2.04956e-06   1.62593e-05
+
+ nevents=1000  nparticlesav=100 nharmonic=2 doloop=1
+
+Initial values: v1=0.1  v2=0.2  v3=0.15  v4=0.05
+
+ CF2=0.0392908 sqrt(CF2):vn{2}=0.198219
+ CF4=-0.00151824 sqrt(sqrt(-CF4)):vn{4}=0.197394
+ CF6=0.000239649 6throot((CF6)/4.):vn{6}=0.197812
+
+FINAL values from event plane
+
+ FINAL event plane resolution=0.702456
+ FINAL v2 from Event plane=0.210153 nharmonic=2
+ 2 particle correlation fit: v1=0.0985965  v2=0.187881  v3=0.146486  v4=0.0489797  v5sq=-0.000292788
+
+if loops done FINAL values from particle cumulants
+
+ 2 particle cumulant = 0.0392908
+ 3 particle cumulant = 0.00196143
+ 4 particle cumulant = 0.00158903
+
+FINAL calculations from particle cumulants
+
+ from 2 particle cumulant: v2=0.198219
+ from 4 particle cumulant: v2=0.19675
+
+ nharmonic=2, 3 particle cumulant=0.00196143 we expect 0.002 i.e. v2*v2*v4
+
